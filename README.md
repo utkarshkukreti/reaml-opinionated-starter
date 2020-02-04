@@ -12,7 +12,7 @@ The total size of the generated HTML + JS + CSS of this app is 8kB gzipped.
 
 ```
 $ cat dist/* | gzip | wc -c
-    8336
+    8343
 ```
 
 ## Setup
