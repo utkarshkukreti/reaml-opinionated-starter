@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm-run-all build:bsb -p start:bsb start:parcel",
     "start:bsb": "bsb -make-world -w",
-    "start:parcel": "parcel serve src/index.html",
+    "start:parcel": "parcel serve src/index.html src/Main.bs.js src/index.css",
     "build": "run-s build:bsb build:parcel",
     "build:bsb": "bsb -make-world",
     "build:parcel": "rm -rf dist && PURGE=true parcel build --no-cache src/index.html src/Main.bs.js src/index.css",
