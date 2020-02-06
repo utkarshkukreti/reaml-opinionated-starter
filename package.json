@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm-run-all build:tsc build:bsb -p start:bsb start:parcel start:tsc",
     "start:bsb": "bsb -make-world -w",
-    "start:parcel": "parcel serve src/index.html src/Main.bs.js src/index.css",
+    "start:parcel": "parcel serve --no-cache src/index.html src/Main.bs.js src/index.css",
     "start:tsc": "tsc -w --preserveWatchOutput",
     "build": "run-s build:tsc build:bsb build:parcel",
     "build:bsb": "bsb -make-world",
