@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "lib": ["esnext", "dom"],
+    "jsx": "react",
+    "jsxFactory": "Preact.createElement"
+  }
+}

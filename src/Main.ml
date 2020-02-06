@@ -1,5 +1,10 @@
 module R = Reaml
 
+type hello = { name : string }
+
+external hello : hello R.component = "Hello"
+  [@@reaml.component] [@@bs.val] [@@bs.module "./Main.js"]
+
 module Button = struct
   type props = { text : string }
 
@@ -18,7 +23,9 @@ end
 
 let main =
   R.div
-    [ R.class_ "pt-24 mx-8 flex justify-center" ]
-    [ Button.make { text = "You've clicked this button {} times!" } ]
+    [ R.class_ "pt-16 mx-8 flex flex-col items-center" ]
+    [ hello { name = "Reaml" }
+    ; Button.make { text = "You've clicked this button {} times!" }
+    ]
 
 let () = main |> R.renderTo "main"
