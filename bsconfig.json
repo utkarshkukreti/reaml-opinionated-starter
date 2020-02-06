@@ -6,6 +6,6 @@
   "package-specs": { "module": "es6", "in-source": true },
   "suffix": ".bs.js",
   "bs-dependencies": ["bs-abstract", "relude", "bs-webapi", "reaml"],
-  "warnings": { "error": "+101" },
+  "warnings": { "number": "-23", "error": "+101" },
   "refmt": 3
 }
