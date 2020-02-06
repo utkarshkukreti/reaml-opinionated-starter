@@ -1,4 +1,4 @@
-# Opinionated Reaml Starter
+# Reaml Opinionated Starter
 
 An Opinionated Starter for [Reaml](https://github.com/utkarshkukreti/reaml)
 which includes some packages I frequently use:
