@@ -23,7 +23,7 @@ end
 
 let main =
   R.div
-    [ R.class_ "pt-16 mx-8 flex flex-col items-center" ]
+    [ R.class_ "pt-8 mx-8 flex flex-col items-center" ]
     [ hello { name = "Reaml" }
     ; Button.make { text = "You've clicked this button {} times!" }
     ]
