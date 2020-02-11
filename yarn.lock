@@ -2017,11 +2017,6 @@ bs-platform@^7.0.1:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.0.1.tgz#1d7b0ef6088b998dceee5db74a7cd8f01c20a3bd"
   integrity sha512-UjStdtHhbtC/l6vKJ1XRDqrPk7rFf5PLYHtRX3akDXEYVnTbN36z0g4DEr5mU8S0N945e33HYts9x+i7hKKpZQ==
 
-bs-webapi@^0.15.6:
-  version "0.15.6"
-  resolved "https://registry.yarnpkg.com/bs-webapi/-/bs-webapi-0.15.6.tgz#967a074854c76ba0097653a1745fd981eaf62f7b"
-  integrity sha512-J+6+fBhkZ8DC8Xrq5Zv7w5pufEv/23TSsHSPMMoOJ1tejEbmXvk8qkwUi0JqPhWmA86XyGMO7Z2XbNNUtd/CPw==
-
 bs-webapi@^0.15.7:
   version "0.15.7"
   resolved "https://registry.yarnpkg.com/bs-webapi/-/bs-webapi-0.15.7.tgz#4d6bc7723d0614a2864953659e703163f1023ba4"
@@ -5501,12 +5496,12 @@ readable-stream@^3.0.0, readable-stream@^3.0.1, readable-stream@^3.1.1:
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
-reaml@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/reaml/-/reaml-0.7.2.tgz#d434b72177f1eaa6038596e773b5e22edc2195ce"
-  integrity sha512-RMTc1JFu2jrBX7oby8YSrJ5IsLdO6qd22HQ/jtb1eEQA2ZebUR5fPq4KEWF2OFKAfhMeb6L+Q8TM2jPuNrSzwg==
+reaml@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/reaml/-/reaml-0.8.0.tgz#ca3c3589a5f52ae5943130df6aa3545d43385c83"
+  integrity sha512-wupoqOBpTb1/tczla+3M5eaS4Bcailt9bUF6djVVTjVy6HJfef+U32auAxXkgimhWcCTfbkGSCeSt9XR/6rHBA==
   dependencies:
-    bs-webapi "^0.15.6"
+    bs-webapi "^0.15.7"
 
 reduce-css-calc@^2.1.6:
   version "2.1.7"
