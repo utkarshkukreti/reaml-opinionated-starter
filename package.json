@@ -9,7 +9,7 @@
     "start:tsc": "tsc -w --preserveWatchOutput",
     "build": "run-s build:tsc build:bsb build:parcel",
     "build:bsb": "bsb -make-world",
-    "build:parcel": "rm -rf dist && PURGE=true parcel build --no-cache src/index.html src/Main.bs.js src/index.css",
+    "build:parcel": "rm -rf dist && PURGE=true parcel build --no-cache --no-source-maps src/index.html src/Main.bs.js src/index.css",
     "build:tsc": "tsc",
     "clean": "rm -rf .parcel-cache dist && bsb -clean-world"
   },
