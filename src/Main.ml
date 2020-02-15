@@ -1,9 +1,11 @@
 module R = Reaml
 
-type hello = { name : string }
+module Hello = struct
+  type props = { name : string }
 
-external hello : hello R.component = "Hello"
-  [@@reaml.component] [@@bs.val] [@@bs.module "./Main.js"]
+  external make : props R.component = "Hello"
+    [@@reaml.component] [@@bs.val] [@@bs.module "./Main.js"]
+end
 
 module Button = struct
   type props = { text : string }
@@ -26,7 +28,7 @@ let main =
   R.div
     [ R.class_ "pt-8 mx-8 flex flex-col items-center" ]
     [
-      hello { name = "Reaml" };
+      Hello.make { name = "Reaml" };
       Button.make { text = "You've clicked this button {} times!" };
     ]
 
