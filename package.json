@@ -16,11 +16,11 @@
   "dependencies": {
     "bs-abstract": "^0.18.0",
     "bs-webapi": "^0.15.7",
-    "preact": "^10.3.1",
+    "preact": "^10.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "reaml": "^0.10.1",
-    "relude": "^0.54.0"
+    "relude": "^0.55.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.0.6",
@@ -28,7 +28,7 @@
     "autoprefixer": "^9.7.4",
     "bs-platform": "^7.0.1",
     "npm-run-all": "^4.1.5",
-    "parcel": "^2.0.0-nightly.90",
+    "parcel": "^2.0.0-nightly.110",
     "tailwindcss": "^1.2.0",
     "typescript": "^3.7.5"
   },
