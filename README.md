@@ -28,7 +28,7 @@ This will start `bsb`, `parcel`, `tsc` in watch mode:
 
 ## Production
 
-This will build HTML/JS/CSS files into `dist/`.
+This will build HTML/JS/CSS files into `dist/`:
 
     $ yarn build
 
