@@ -14,5 +14,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: yarn install
       - run: yarn build
-      - run: cat dist/Main.bs.js dist/index.css dist/index.html | gzip | wc -c
+      - run: cat dist/* | gzip | wc -c
         shell: bash
