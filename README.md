@@ -1,4 +1,4 @@
-# Reaml Opinionated Starter
+# Reaml Opinionated Starter ![Build](https://github.com/utkarshkukreti/reaml-opinionated-starter/workflows/Build/badge.svg)
 
 An Opinionated Starter for [Reaml](https://github.com/utkarshkukreti/reaml)
 which includes some packages I frequently use:
