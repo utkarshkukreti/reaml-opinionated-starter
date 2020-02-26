@@ -15,15 +15,15 @@
   },
   "dependencies": {
     "bs-abstract": "^0.18.0",
-    "bs-webapi": "^0.15.7",
+    "bs-webapi": "^0.15.8",
     "preact": "^10.3.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "reaml": "^0.12.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "reaml": "^0.12.2",
     "relude": "^0.55.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "@fullhuman/postcss-purgecss": "^2.1.0",
     "@tailwindcss/custom-forms": "^0.2.1",
     "autoprefixer": "^9.7.4",
     "bs-platform": "^7.0.1",

@@ -775,13 +775,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@fullhuman/postcss-purgecss@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-2.0.6.tgz#55612eda275e6a86a8d4a03e9deb58b2e95dd6f1"
-  integrity sha512-RgD05Yd1VFudo1H1b2inb+10AS1mexp1edHfdoJvoeKaoMVoi/9DWrbWOpIrDmKq1CO82oQrb5wf4V64oaNkKQ==
+"@fullhuman/postcss-purgecss@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-2.1.0.tgz#955fc2e3f69b0d0c84367eeee4f85c01238a65dc"
+  integrity sha512-zmV+cK8pAo/suKMQk1fKzDdols5ltOy86Hk51qwkiJJt4olm3t1MaUrm4U4MlA9fiYeRpLqsNop2xNoEm8DV+w==
   dependencies:
-    postcss "7.0.26"
-    purgecss "^2.0.6"
+    postcss "7.0.27"
+    purgecss "^2.1.0"
 
 "@iarna/toml@^2.2.0":
   version "2.2.3"
@@ -1983,10 +1983,10 @@ bs-platform@^7.0.1:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.0.1.tgz#1d7b0ef6088b998dceee5db74a7cd8f01c20a3bd"
   integrity sha512-UjStdtHhbtC/l6vKJ1XRDqrPk7rFf5PLYHtRX3akDXEYVnTbN36z0g4DEr5mU8S0N945e33HYts9x+i7hKKpZQ==
 
-bs-webapi@^0.15.7:
-  version "0.15.7"
-  resolved "https://registry.yarnpkg.com/bs-webapi/-/bs-webapi-0.15.7.tgz#4d6bc7723d0614a2864953659e703163f1023ba4"
-  integrity sha512-Mu8H+9DRIPK6VuqgzyUp5FoeBLSlhOqQcqc6G05At019kIZowQU783MoSedTbt9OctE9N1yO91DoDzMTWHspdg==
+bs-webapi@^0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/bs-webapi/-/bs-webapi-0.15.8.tgz#0e9ce264063ed4ce803e05620f2bf91773f92153"
+  integrity sha512-1efc8zOH2KDYU6sIjQQjOTgj+6ggtSius/x8fBMXYy9EHZTMBjzPrmjmsTPwwuojTo2fhrLA0VVDQeTiA25n3A==
 
 buffer-from@^1.0.0:
   version "1.1.1"
@@ -5209,10 +5209,10 @@ postcss@6.0.1:
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@7.0.26, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.5:
-  version "7.0.26"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.26.tgz#5ed615cfcab35ba9bbb82414a4fa88ea10429587"
-  integrity sha512-IY4oRjpXWYshuTDFxMVkJDtWIk2LhsTlu8bZnbEJA4+bYT16Lvpo8Qv6EvDumhYRgzjZl489pmsY3qVgJQ08nA==
+postcss@7.0.27:
+  version "7.0.27"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.27.tgz#cc67cdc6b0daa375105b7c424a85567345fc54d9"
+  integrity sha512-WuQETPMcW9Uf1/22HWUWP9lgsIC+KEHg2kozMflKjbeUtw9ujvFX6QmIfozaErDkmLWS9WEnEdEe6Uo9/BNTdQ==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -5226,6 +5226,15 @@ postcss@^6.0.1, postcss@^6.0.9:
     chalk "^2.4.1"
     source-map "^0.6.1"
     supports-color "^5.4.0"
+
+postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.5:
+  version "7.0.26"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.26.tgz#5ed615cfcab35ba9bbb82414a4fa88ea10429587"
+  integrity sha512-IY4oRjpXWYshuTDFxMVkJDtWIk2LhsTlu8bZnbEJA4+bYT16Lvpo8Qv6EvDumhYRgzjZl489pmsY3qVgJQ08nA==
+  dependencies:
+    chalk "^2.4.2"
+    source-map "^0.6.1"
+    supports-color "^6.1.0"
 
 posthtml-parser@^0.4.1:
   version "0.4.2"
@@ -5372,14 +5381,14 @@ purgecss@^1.4.0:
     postcss-selector-parser "^6.0.0"
     yargs "^14.0.0"
 
-purgecss@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-2.0.6.tgz#fc0a03f9533448635309af5979b094aab57ff361"
-  integrity sha512-Xab72ykpWtg+j/dTphz9HCrychRNbMebNBrI+pOU0mC7mG5OlwRksEEpNAdOLb1jg9oRHDDu6Exe+nlM9ZLp5Q==
+purgecss@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-2.1.0.tgz#6da655d166073824efe2532b0c6466c740d939d6"
+  integrity sha512-QnXhowNjeWo9vNnGES2LVzDXdRR/8EvG/O03m4bYOWfAX0ShmG/Pmj7brVtVBy2eaaRAmNy23L+GBc4SpDFUeQ==
   dependencies:
     commander "^4.0.0"
     glob "^7.0.0"
-    postcss "7.0.26"
+    postcss "7.0.27"
     postcss-selector-parser "^6.0.2"
 
 q@^1.1.2:
@@ -5427,15 +5436,15 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.12.0:
-  version "16.12.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
-  integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
+react-dom@^16.13.0:
+  version "16.13.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.0.tgz#cdde54b48eb9e8a0ca1b3dc9943d9bb409b81866"
+  integrity sha512-y09d2c4cG220DzdlFkPTnVvGTszVvNpC73v+AaLGLHbkpy3SSgvYq8x0rNwPJ/Rk/CicTNgk0hbHNw1gMEZAXg==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.18.0"
+    scheduler "^0.19.0"
 
 react-is@^16.8.1:
   version "16.12.0"
@@ -5447,7 +5456,16 @@ react-refresh@^0.6.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.6.0.tgz#81971b8f3c8c05aaa6ce87491ae41b396133f896"
   integrity sha512-Wv48N+GFt6Azvtl/LMvzNW9hvEyJdRQ48oVKIBAN7hjtvXXfxfVJXbPl/11SM1C/NIquIFXzzWCo6ZNH0I8I4g==
 
-react@^16.12.0, react@^16.7.0:
+react@^16.13.0:
+  version "16.13.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
+  integrity sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+
+react@^16.7.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
@@ -5496,12 +5514,12 @@ readable-stream@^3.1.1:
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
-reaml@^0.12.1:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/reaml/-/reaml-0.12.1.tgz#66d73c032b5dde3dac0007b7143ecc7f66400161"
-  integrity sha512-Fab/ZjMaIYfn5uRItIJkDD2h69gLsE1YRfDW9+mqo262QKbYycQuP9PUDcLKTRoYvTvxY8HbuEwToE/hVBPHeA==
+reaml@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/reaml/-/reaml-0.12.2.tgz#f21e4d9d781fcea1c92ffd387a821667e5588d02"
+  integrity sha512-2W9FnNsKnj4hvWLvW6E0sIOkIk8sKZN1MABXKk3mZc5R0rN0wUEAnGWwdmKAo5r904RbjoZbc/+NevA18y85/Q==
   dependencies:
-    bs-webapi "^0.15.7"
+    bs-webapi "^0.15.8"
 
 reduce-css-calc@^2.1.6:
   version "2.1.7"
@@ -5813,10 +5831,10 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-scheduler@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
-  integrity sha512-agTSHR1Nbfi6ulI0kYNK0203joW2Y5W4po4l+v03tOoiJKpTBbxpNhWDvqc/4IcOw+KLmSiQLTasZ4cab2/UWQ==
+scheduler@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.0.tgz#a715d56302de403df742f4a9be11975b32f5698d"
+  integrity sha512-xowbVaTPe9r7y7RUejcK73/j8tt2jfiyTednOvHbA8JoClvMYCp+r8QegLwK/n8zWQAtZb1fFnER4XLBZXrCxA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
