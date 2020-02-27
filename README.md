@@ -9,11 +9,11 @@ which includes some packages I frequently use:
 4. [Relude](https://github.com/reazen/relude), a more powerful standard library for BuckleScript.
 5. [PurgeCSS](https://purgecss.com/), to remove unused TailwindCSS classes.
 
-The total size of the generated HTML + JS + CSS of this app is 9kB gzipped.
+The total size of the generated HTML + JS + CSS of this app is 8kB gzipped.
 
 ```
 $ cat dist/* | gzip | wc -c
-    9407
+    7940
 ```
 
 ## Setup

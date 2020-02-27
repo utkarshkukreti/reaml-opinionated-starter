@@ -34,7 +34,7 @@
     "typescript": "^3.8.2"
   },
   "alias": {
-    "react": "preact/compat",
-    "react-dom": "preact/compat"
+    "react": "./preact",
+    "react-dom": "./preact"
   }
 }
