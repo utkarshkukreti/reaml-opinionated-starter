@@ -5461,10 +5461,10 @@ readable-stream@^3.0.0, readable-stream@^3.0.1, readable-stream@^3.0.6, readable
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
-reaml@^0.12.3:
-  version "0.12.3"
-  resolved "https://registry.yarnpkg.com/reaml/-/reaml-0.12.3.tgz#683da8faa01c7c2dab9f7b469b2697a385c1d28e"
-  integrity sha512-IDtnCP31q8RZu4PA+MZ+8iaa4Y2aODuh9JTcp3DefR1tjoRRwdcGg2h4dKh43R+2Muo64g0vzd1kkQbfDsNxlA==
+reaml@^0.12.4:
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/reaml/-/reaml-0.12.4.tgz#ad6791516355d370ce9b75714f6b4f5c4ab8ee8a"
+  integrity sha512-RxPNGkVP7ZW/JBeES8tt1PLnxVxrpDnOPl4R3i0z7WMw6l3gbwHAcBC0S8LMyO2qT7IyMl6YAsErOTxsNaBeRA==
   dependencies:
     bs-webapi "^0.15.8"
 
