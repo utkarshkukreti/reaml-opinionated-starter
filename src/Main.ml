@@ -10,8 +10,7 @@ end
 module Button = struct
   type props = { text : string }
 
-  let make =
-   fun [@reaml.component "Button"] { text } ->
+  let[@reaml.component "Button"] make { text } =
     let[@reaml] count, setCount = R.useState 0 in
     R.button
       [
