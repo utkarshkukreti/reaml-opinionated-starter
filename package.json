@@ -19,7 +19,7 @@
     "preact": "^10.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "reaml": "^0.13.0",
+    "reaml": "^0.13.1",
     "relude": "^0.58.0"
   },
   "devDependencies": {
