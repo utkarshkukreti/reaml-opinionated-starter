@@ -16,7 +16,7 @@
   "dependencies": {
     "bs-abstract": "^1.0.0",
     "bs-webapi": "^0.15.9",
-    "preact": "^10.4.0",
+    "preact": "^10.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "reaml": "^0.13.2",
@@ -24,13 +24,13 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.2",
-    "@tailwindcss/ui": "^0.1.3",
+    "@tailwindcss/ui": "^0.2.2",
     "autoprefixer": "^9.7.6",
     "bs-platform": "^7.3.1",
     "cross-env": "^7.0.2",
     "npm-run-all": "^4.1.5",
-    "parcel": "^2.0.0-nightly.212",
-    "tailwindcss": "^1.2.0",
+    "parcel": "^2.0.0-nightly.234",
+    "tailwindcss": "^1.3.5",
     "typescript": "^3.8.3"
   },
   "alias": {
