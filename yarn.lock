@@ -2006,6 +2006,11 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bisect_ppx@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/bisect_ppx/-/bisect_ppx-2.4.1.tgz#57a0743abc6b39e148e83ca840df11133c0d5960"
+  integrity sha512-U6sd2mMqg28NEBmB4NuJRUJq0aTrzVCIkv8bnbzaomIZfO0DMWZ7B8QJ5aBY46tbaIeNrvmYWylnNNaoPEWZmw==
+
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.4.0:
   version "4.11.9"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
@@ -5614,10 +5619,12 @@ regjsparser@^0.6.4:
   dependencies:
     jsesc "~0.5.0"
 
-relude@^0.58.0:
-  version "0.58.0"
-  resolved "https://registry.yarnpkg.com/relude/-/relude-0.58.0.tgz#9ccc4bd42d473696eb1b474290fc27b60b7c3883"
-  integrity sha512-GbR4f4NUPcFJcKB5e19yyqKXRJZ3UHdERGFO7EyTmIt1HtXinNAjDLji71UggJKTYv2r2ezTu5TBpxvsveOnxw==
+relude@^0.63.1:
+  version "0.63.1"
+  resolved "https://registry.yarnpkg.com/relude/-/relude-0.63.1.tgz#a2d4b0bf64a9db287b1ba860253f9fb06962057f"
+  integrity sha512-6ZSfdvIBSivTvvWca0+g99gfJwKh4yzFtxFzX1URYeJ2ZNVylOfSA6FF3oon7VOzJS9+EIOoy32xC2VjTtpzGA==
+  dependencies:
+    bisect_ppx "^2.4.1"
 
 repeat-element@^1.1.2:
   version "1.1.3"
