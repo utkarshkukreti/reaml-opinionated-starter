@@ -14,23 +14,21 @@
     "clean": "rm -rf .parcel-cache dist && bsb -clean-world"
   },
   "dependencies": {
-    "bs-abstract": "^1.0.0",
-    "bs-webapi": "^0.16.0",
-    "preact": "^10.4.4",
+    "bs-webapi": "^0.17.1",
+    "preact": "^10.4.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "reaml": "^0.13.5",
-    "relude": "^0.58.0"
+    "reaml": "^0.14.1"
   },
   "devDependencies": {
     "@tailwindcss/ui": "^0.3.0",
-    "autoprefixer": "^9.8.1",
-    "bs-platform": "^7.3.2",
+    "autoprefixer": "^9.8.4",
+    "bs-platform": "^8.0.3",
     "cross-env": "^7.0.2",
     "npm-run-all": "^4.1.5",
-    "parcel": "^2.0.0-beta.1",
+    "parcel": "^2.0.0-nightly.322",
     "tailwindcss": "^1.4.6",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.6"
   },
   "alias": {
     "react": "reaml/preact",

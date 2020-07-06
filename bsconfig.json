@@ -5,7 +5,7 @@
   "ppx-flags": ["reaml/ppx.exe"],
   "package-specs": { "module": "es6", "in-source": true },
   "suffix": ".bs.js",
-  "bs-dependencies": ["bs-abstract", "relude", "bs-webapi", "reaml"],
+  "bs-dependencies": ["bs-webapi", "reaml"],
   "warnings": { "number": "-23", "error": "+101" },
   "refmt": 3
 }
